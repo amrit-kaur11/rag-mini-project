@@ -17,13 +17,13 @@ This project was developed as part of an **AI Engineer Intern – Take-Home Assi
 ## ✨ Features
 
 
-- 🔹 Deterministic text chunking with overlap
-- 🔹 Sentence-Transformer embeddings (`all-MiniLM-L6-v2`)
-- 🔹 FAISS vector similarity search
-- 🔹 Local LLM inference via **Ollama**
-- 🔹 Strict JSON-based prompting (reduces hallucinations)
-- 🔹 End-to-end CLI demo
-- 🔹 Automatic evaluation & CSV results
+🔹 Deterministic text chunking with overlap
+🔹 Sentence-Transformer embeddings (`all-MiniLM-L6-v2`)
+🔹 FAISS vector similarity search
+🔹 Local LLM inference via **Ollama**
+🔹 Strict JSON-based prompting (reduces hallucinations)
+🔹 End-to-end CLI demo
+🔹 Automatic evaluation & CSV results
 
 
 ---
@@ -180,4 +180,5 @@ AI / ML Engineer (Internship Candidate)
 
 This project emphasizes correctness, clarity, and reproducibility over scale.
 All components run fully offline using open-source tools.
+
 
