@@ -65,27 +65,42 @@ rag-mini/
 ```bash
 python -m venv .venv
 .venv\Scripts\activate   # Windows
+```
+
 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 3️⃣ Install & run Ollama
 
 Download from: https://ollama.com
 
 Pull model:
 
+```bash
 ollama pull llama3.1:8b
-📄 Data Preparation
+```
+
+---
+
+## 📄 Data Preparation
 
 Place your raw document inside:
 
 data/source.txt
 
-Generate chunks:
+### Generate chunks:
 
 python scripts/prepare_data.py --input data --output data/cleaned
-🔎 Build FAISS Index
+
+---
+
+## 🔎 Build FAISS Index
 python scripts/index_vectors.py --chunks data/cleaned/chunks.jsonl --out faiss_index
-❓ Ask Questions (CLI)
+
+---
+
+## ❓ Ask Questions (CLI)
 python query.py --question "What is the refund processing time?"
 
 Example output:
@@ -95,13 +110,16 @@ Example output:
   "source_chunks": ["source_chunk_0"],
   "answerable": "yes"
 }
-▶️ Run Demo
+### ▶️ Run Demo
 python run_demo.py
 
 Outputs are saved to:
 
 demo_outputs.json
-📊 Evaluation
+
+---
+
+## 📊 Evaluation
 
 Run automated evaluation:
 
@@ -110,7 +128,10 @@ python -m eval.evaluate
 Results are saved to:
 
 eval/results.csv
-🧠 Design Decisions
+
+---
+
+## 🧠 Design Decisions
 
 Local-first: No OpenAI / cloud APIs
 
@@ -122,7 +143,9 @@ Explicit retrieval → generation separation
 
 Reproducible embeddings & indexing
 
-🚧 Limitations
+---
+
+## 🚧 Limitations
 
 Single-document ingestion
 
@@ -132,7 +155,9 @@ No streaming responses
 
 Basic evaluation metrics
 
-🌱 Future Improvements
+---
+
+## 🌱 Future Improvements
 
 Multi-document ingestion
 
@@ -144,7 +169,9 @@ FastAPI backend
 
 Web UI (Streamlit / Next.js)
 
-👩‍💻 Author
+---
+
+## 👩‍💻 Author
 
 Amrit Kaur
 AI / ML Engineer (Internship Candidate)
@@ -153,3 +180,4 @@ AI / ML Engineer (Internship Candidate)
 
 This project emphasizes correctness, clarity, and reproducibility over scale.
 All components run fully offline using open-source tools.
+
