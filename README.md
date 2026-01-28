@@ -17,13 +17,13 @@ This project was developed as part of an **AI Engineer Intern – Take-Home Assi
 ## ✨ Features
 
 
-🔹 Deterministic text chunking with overlap
-🔹 Sentence-Transformer embeddings (`all-MiniLM-L6-v2`)
-🔹 FAISS vector similarity search
-🔹 Local LLM inference via **Ollama**
-🔹 Strict JSON-based prompting (reduces hallucinations)
-🔹 End-to-end CLI demo
-🔹 Automatic evaluation & CSV results
+- Deterministic text chunking with overlap
+- Sentence-Transformer embeddings (`all-MiniLM-L6-v2`)
+- FAISS vector similarity search
+- Local LLM inference via **Ollama**
+- Strict JSON-based prompting (reduces hallucinations)
+- End-to-end CLI demo
+- Automatic evaluation & CSV results
 
 
 ---
@@ -35,19 +35,19 @@ This project was developed as part of an **AI Engineer Intern – Take-Home Assi
 
 rag-mini/
 ├── data/
-│ ├── source.txt # Raw input document
+│ ├── source.txt      # Raw input document
 │ └── cleaned/
-│ └── chunks.jsonl # Chunked text
+│ └── chunks.jsonl    # Chunked text
 ├── scripts/
-│ ├── prepare_data.py # Text chunking
-│ └── index_vectors.py # FAISS index creation
+│ ├── prepare_data.py    # Text chunking
+│ └── index_vectors.py   # FAISS index creation
 ├── src/
 │ └── rag.py # Retrieval + generation logic
 ├── eval/
-│ ├── evaluate.py # Evaluation script
-│ └── results.csv # Evaluation output
-├── query.py # Single-question CLI
-├── run_demo.py # Demo questions
+│ ├── evaluate.py   # Evaluation script
+│ └── results.csv   # Evaluation output
+├── query.py      # Single-question CLI
+├── run_demo.py    # Demo questions
 ├── requirements.txt
 └── README.md
 
