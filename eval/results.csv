@@ -1,0 +1,8 @@
+question,answer,answerable,score,notes
+What is the refund processing time?,14 days,yes,2,
+How to cancel an order?,,partial,1,"Refund-related information is provided, but there's no mention of cancelling an order."
+Is there a restocking fee?,,no,0,
+Do you ship to Mars?,,no,0,
+How long does international shipping take?,,no,0,
+Which payment methods are refundable?,,partial,1,"Refund process is mentioned, but payment methods are not specified."
+Is customer support available 24/7?,,partial,1,"Contact method is specified, but availability of support (24/7) is not mentioned."

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the refund processing time?",
+    "retrieved_chunks": [
+      "source_chunk_0",
+      "source_chunk_0",
+      "source_chunk_0",
+      "source_chunk_0"
+    ],
+    "raw_response": "{\n  \"answer\": \"14 days\",\n  \"source_chunks\": [\"source_chunk_0\", \"source_chunk_0\"],\n  \"answerable\": \"yes\",\n  \"notes\": \"\"\n}"
+  },
+  {
+    "question": "How can I cancel an order?",
+    "retrieved_chunks": [
+      "source_chunk_0",
+      "source_chunk_0",
+      "source_chunk_0",
+      "source_chunk_0"
+    ],
+    "raw_response": "{\n  \"answer\": \"\",\n  \"source_chunks\": [\"source_chunk_0\", \"source_chunk_0\"],\n  \"answerable\": \"no\",\n  \"notes\": \"\"\n}"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "retrieved_chunks": [
+      "source_chunk_0",
+      "source_chunk_0",
+      "source_chunk_0",
+      "source_chunk_0"
+    ],
+    "raw_response": "{\n  \"answer\": \"\",\n  \"source_chunks\": [\"source_chunk_0\", \"source_chunk_0\"],\n  \"answerable\": \"no\",\n  \"notes\": \"\"\n}"
+  }
+]

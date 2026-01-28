@@ -1,0 +1,19 @@
+# -------- Core numerical stack (PINNED for FAISS compatibility) --------
+numpy==1.26.4
+
+# -------- Vector search --------
+faiss-cpu==1.7.4
+
+# -------- Embeddings --------
+sentence-transformers==2.2.2
+
+# -------- Hugging Face dependencies (PINNED to avoid API breakage) --------
+transformers==4.30.2
+huggingface_hub==0.16.4
+tokenizers==0.13.3
+
+# -------- Utilities --------
+tqdm==4.66.1
+
+# -------- Testing --------
+pytest==7.4.0
